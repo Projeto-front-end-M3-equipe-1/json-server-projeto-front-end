@@ -5,7 +5,7 @@
       "password": "$2a$10$.07B6zTFV3hxQ3y7xqsbUef6SeTUbuBvSaMevyu4c.DEgG9G5S/G6",
       "confirmPassword": "123456",
       "userName": "admin",
-      "company": false,
+      "isCompany": false,
       "id": 8
     },
     {
@@ -14,7 +14,7 @@
       "userName": "Nutrepuro",
       "confirmPassword": "123456",
       "typeOfCompany": "grãos",
-      "company": true,
+      "isCompany": true,
       "id": 2
     },
     {
@@ -23,7 +23,7 @@
       "userName": "Sabor do Campo",
       "confirmPassword": "123456",
       "typeOfCompany": "vegetais",
-      "company": true,
+      "isCompany": true,
       "id": 3
     },
     {
@@ -32,7 +32,7 @@
       "userName": "Petit diQueijo",
       "confirmPassword": "123456",
       "typeOfCompany": "Laticínios",
-      "company": true,
+      "isCompany": true,
       "id": 4
     },
     {
@@ -41,7 +41,7 @@
       "userName": "PanDeli",
       "confirmPassword": "123456",
       "typeOfCompany": "Panificação",
-      "company": true,
+      "isCompany": true,
       "id": 5
     },
     {
@@ -50,7 +50,7 @@
       "userName": "Colônia do Trigo",
       "confirmPassword": "123456",
       "typeOfCompany": "Panificação",
-      "company": true,
+      "isCompany": true,
       "id": 6
     },
     {
@@ -59,7 +59,7 @@
       "userName": "Gourbon Café",
       "confirmPassword": "123456",
       "typeOfCompany": "cafe",
-      "company": true,
+      "isCompany": true,
       "id": 7
     },
     {
