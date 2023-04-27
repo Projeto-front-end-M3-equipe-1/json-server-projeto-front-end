@@ -1,11 +1,86 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "admin@mail.com",
+      "password": "$2a$10$.07B6zTFV3hxQ3y7xqsbUef6SeTUbuBvSaMevyu4c.DEgG9G5S/G6",
+      "confirmPassword": "123456",
+      "userName": "admin",
+      "company": false,
       "id": 1
+    },
+    {
+      "email": "nutre@mail.com",
+      "password": "$2a$10$ta77AmqcWInThNGqCAKRRuBgh1SoREUVTig/QBDT3Hf7VSzdGm1eq",
+      "userName": "Nutrepuro",
+      "confirmPassword": "123456",
+      "typeOfCompany": "grãos",
+      "company": true,
+      "id": 2
+    },
+    {
+      "email": "sabor@mail.com",
+      "password": "$2a$10$4ZhECzFT6posl5mv7uiWFOg881.59aVYZYml9GPObOas3jJ345/8e",
+      "userName": "Sabor do Campo",
+      "confirmPassword": "123456",
+      "typeOfCompany": "vegetais",
+      "company": true,
+      "id": 3
+    },
+    {
+      "email": "petit@mail.com",
+      "password": "$2a$10$PhM994HuOtJ6fXzjcUNRWe0wFiZVR.LSSiitVABLWw6Syv2wMKfgW",
+      "userName": "Petit diQueijo",
+      "confirmPassword": "123456",
+      "typeOfCompany": "Laticínios",
+      "company": true,
+      "id": 4
+    },
+    {
+      "email": "pan@mail.com",
+      "password": "$2a$10$V4NENEi/fIK5xSYZZvegjOn4gAwepMhHbEMX.H.Y/uZ9sGdSIvIHi",
+      "userName": "PanDeli",
+      "confirmPassword": "123456",
+      "typeOfCompany": "Panificação",
+      "company": true,
+      "id": 5
+    },
+    {
+      "email": "colonia@mail.com",
+      "password": "$2a$10$GppNhqvDnnB6tvdbprvCZegYuCoo47SwAu0GsqJewx1qL2mbsrg2a",
+      "userName": "Colônia do Trigo",
+      "confirmPassword": "123456",
+      "typeOfCompany": "Panificação",
+      "company": true,
+      "id": 6
+    },
+    {
+      "email": "cafe@mail.com",
+      "password": "$2a$10$zdgMQDVHvG0lzQL8D4J8Qu..mtIFIjifcvnhqs3pTqwE1aaIETtvC",
+      "userName": "Gourbon Café",
+      "confirmPassword": "123456",
+      "typeOfCompany": "cafe",
+      "company": true,
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "title": "Ovo frito",
+      "originalPrice": 50,
+      "discount": 50,
+      "newPrice": 25,
+      "quantity": 3,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "Pão na chapa",
+      "originalPrice": 20,
+      "discount": 20,
+      "newPrice": 10,
+      "quantity": 5,
+      "userId": 1,
+      "id": 2
     }
   ]
 }
