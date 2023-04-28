@@ -264,7 +264,6 @@ Body: O corpo de requisição deve ser exatamente no seguinte formato:
       "title": "Pão na chapa",
       "originalPrice": 10,
       "discount": 50,
-      "newPrice": 5,
       "quantity": 7,
       "userId": 2
     };
@@ -294,7 +293,6 @@ Body: O corpo de requisição deve contar, ao menos, um dos campos no seguinte f
 	"title": "Pão na chapa",
 	"originalPrice": 10,
 	"discount": 50,
-	"newPrice": 5,
 	"quantity": 7
 };
 
@@ -317,4 +315,8 @@ Content-Type: application/json;
 Body: O corpo de requisição NÃO é necessário;
 
 *Apenas a empresa logada pode excluir o seu próprio produto. Não esquecer de passar o ID do produto na rota e o token da empresa logada no authorization.
+
+________________________________________________________________________________________________________________
+
+Query Parameters
 
