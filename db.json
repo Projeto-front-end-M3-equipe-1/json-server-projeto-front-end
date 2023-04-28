@@ -88,6 +88,14 @@
       "foodCategory": "mercado",
       "isCompany": true,
       "id": 10
+    },
+    {
+      "email": "joao@mail.com",
+      "password": "$2a$10$RBMY9r1O7mdT7G58omtw9.EP1DSGHVJkmOOyNSiEpQQcy7i4ITskm",
+      "confirmPassword": "123456",
+      "userName": "João da Silva",
+      "isCompany": false,
+      "id": 11
     }
   ],
   "products": [
