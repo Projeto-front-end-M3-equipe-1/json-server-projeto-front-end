@@ -6,7 +6,7 @@
       "confirmPassword": "123456",
       "userName": "admin",
       "isCompany": false,
-      "id": 8
+      "id": 1
     },
     {
       "email": "nutre@mail.com",
@@ -61,13 +61,6 @@
       "typeOfCompany": "cafe",
       "isCompany": true,
       "id": 7
-    },
-    {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
-      "id": 1
     }
   ],
   "products": [
