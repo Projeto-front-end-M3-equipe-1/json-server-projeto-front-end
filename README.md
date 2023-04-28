@@ -156,11 +156,13 @@ Body: O corpo de requisição deve ser exatamente no seguinte formato:
  	"email": "pao@mail.com",
 	"password": "123456",
  	"confirmPassword": "123456",
-	"typeOfCompany": "panificação",
+	"foodCategory": "bar",
  	"isCompany" : true
 };
 
-*O campo “id” é preenchido automaticamente pela API.
+*O campo “id” é preenchido automaticamente pela API;
+
+*Rol de opções para o foodCategory: padaria, lanches, cafeteria, restaurante, bares e mercado.
 ________________________________________________________________________________________________________________
 
 =>PATCH EDITAR EMPRESA
@@ -182,7 +184,7 @@ Body: O corpo de requisição deve contar, ao menos, um dos campos no seguinte f
 	"email": "pao@mail.com",
 	"password": "123456",
 	"confirmPassword": "123456",
-	"typeOfCompany": "panificação"
+	"foodCategory": "bar"
 };
 
 *Apenas a empresa logada pode editar as suas próprias informções. Não esquecer de passar o ID da empresa na rota e o token da empresa logada no authorization.
@@ -318,5 +320,28 @@ Body: O corpo de requisição NÃO é necessário;
 
 ________________________________________________________________________________________________________________
 
+
 Query Parameters
 
+________________________________________________________________________________________________________________
+
+=>FILTRAR PRODUTO POR SETOR ALIMENTÍCIO
+
+Rota:  https://json-server-projeto-front-end.onrender.com/users?foodCategory={informar a categoria desejada};
+
+Tipo de rota: 'GET' para filtrar por categorias;
+
+É necessário envio de token de autenticação no formato:
+headers: {
+            Authorization: `Bearer ${token}`,
+          };
+
+Content-Type: application/json;
+
+Body: O corpo de requisição NÃO é necessário;
+
+*Apenas o usuário logado pode realizar buscas. Não esquecer de passar a categoria na rota e o token do usuário logado no authorization;
+
+*Rol de opções para o foodCategory: padaria, lanches, cafeteria, restaurante, bares e mercado.
+
+________________________________________________________________________________________________________________
