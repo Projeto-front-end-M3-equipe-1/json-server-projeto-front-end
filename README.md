@@ -363,7 +363,8 @@ Body: O corpo de requisição deve ser exatamente no seguinte formato:
       "originalPrice": 10,
       "discount": 50,
       "quantity": 7,
-      "userId": 2
+      "userId": 2,
+      "company": "Nero Café"
     };
     
 *Apenas a empresa logada pode criar um novo produto. Não esquecer de passar o token da empresa logada no authorization.
