@@ -2,16 +2,16 @@
   "users": [
     {
       "email": "admin@mail.com",
-      "password": "$2a$10$.07B6zTFV3hxQ3y7xqsbUef6SeTUbuBvSaMevyu4c.DEgG9G5S/G6",
+      "password": "$2a$10$yXMwQguEio7i9sqfxyPYM.6n7iAzS4Hnddg6/H91.zRYMN4xdO2Lm",
       "confirmPassword": "123456",
       "userName": "admin",
       "isCompany": false,
       "id": 1
     },
     {
-      "email": "lanche@mail.com",
-      "password": "$2a$10$bXdtVG.qmACvLG9Kpyq3KuoJwHe2/OE3.j1RGVMfEeh0OE4FOhX72",
-      "userName": "Kilanche",
+      "email": "admin@mail.com",
+      "password": "$2a$10$M1W4mrXrzT5P0o.CESeF7.k3g6sC7hHRP7S/GPhe2jMzrXmLkFTIa",
+      "userName": "admin",
       "confirmPassword": "123456",
       "foodCategory": "lanches",
       "isCompany": true,
@@ -63,15 +63,6 @@
       "id": 7
     },
     {
-      "email": "harp@mail.com",
-      "password": "$2a$10$10ISM9HZEUdAOC58gGZI.uRY5Tn06OEa02EhfpQvoTdDlkfjPUM2a",
-      "userName": "The Harp - Pub",
-      "confirmPassword": "123456",
-      "foodCategory": "bares",
-      "isCompany": true,
-      "id": 8
-    },
-    {
       "email": "rewe@mail.com",
       "password": "$2a$10$SwO7fiObkBnaGNzBUJm8auK2P2m7E9Vvx8sS5iJfUBUym6ZYGa3IC",
       "userName": "Rewe",
@@ -96,6 +87,14 @@
       "userName": "João da Silva",
       "isCompany": false,
       "id": 11
+    },
+    {
+      "email": "joasdddddo@mail.com",
+      "password": "$2a$10$.lXJ19OWeRvxvT.Ej5BnvuAciRpWQ/PP4kUVee6P4d7O.kQUl0c6G",
+      "confirmPassword": "123456",
+      "userName": "",
+      "isCompany": false,
+      "id": 12
     }
   ],
   "products": [
@@ -125,24 +124,6 @@
       "userId": 9,
       "company": "Rewe",
       "id": 3
-    },
-    {
-      "title": "Petiscos diversos",
-      "originalPrice": 30,
-      "discount": 24,
-      "quantity": 4,
-      "userId": 8,
-      "company": "The Harp - Pub",
-      "id": 4
-    },
-    {
-      "title": "Cervejas",
-      "originalPrice": 60,
-      "discount": 40,
-      "quantity": 8,
-      "userId": 8,
-      "company": "The Harp - Pub",
-      "id": 5
     },
     {
       "title": "Macarronada",
